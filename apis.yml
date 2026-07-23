@@ -1,7 +1,28 @@
 aid: avantstay
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/avantstay.png
 name: AvantStay
-description: AvantStay is a company surfaced as a portfolio company of bullpen-capital and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  AvantStay is a technology-enabled luxury vacation rental management and
+  hospitality company operating professionally designed short-term rental homes
+  built for group travel across premium destinations throughout the United
+  States. Beyond curated beachfront villas, desert estates, and mountain cabins,
+  AvantStay runs a full-service homeowner property-management program through its
+  Lighthouse owner portal, a 24-hour guest concierge, and a real-estate brokerage
+  for buyers acquiring investment vacation homes. It is a portfolio company of
+  Bullpen Capital tracked in the API Evangelist network. As of this enrichment
+  pass AvantStay publishes a consumer booking website and homeowner portal but no
+  public developer API, SDK, or documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/avantstay/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +32,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Vacation Rentals
+- Short-Term Rentals
+- Hospitality
+- Property Management
+- Travel
+- Real Estate
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,24 @@ maintainers:
 common:
 - type: Website
   url: https://avantstay.com
+- type: Blog
+  url: https://avantstay.com/blog/
+- type: Support
+  url: https://help.avantstay.com/
+- type: Pricing
+  url: https://avantstay.com/membership
+- type: Login
+  url: https://lighthouse.avantstay.com
+- type: TermsOfService
+  url: https://avantstay.com/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://privacy.avantstay.com/
+- type: DomainSecurity
+  url: security/avantstay-domain-security.yml
+- type: WellKnown
+  url: well-known/avantstay-well-known.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

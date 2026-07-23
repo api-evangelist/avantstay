@@ -1,0 +1,22 @@
+generated: '2026-07-18'
+method: probed
+source: live probes of https://www.avantstay.com/.well-known/*
+host: www.avantstay.com
+probes:
+- path: /.well-known/security.txt
+  status: 404
+  file: null
+- path: /.well-known/openid-configuration
+  status: 404
+  file: null
+- path: /.well-known/oauth-authorization-server
+  status: 404
+  file: null
+- path: /.well-known/api-catalog
+  status: 404
+  file: null
+- path: /.well-known/ai-plugin.json
+  status: 404
+  file: null
+result: none
+notes: No .well-known documents published. AvantStay exposes no public developer/API surface.
